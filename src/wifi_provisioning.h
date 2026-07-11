@@ -18,15 +18,13 @@ constexpr uint32_t WIFI_POLL_INTERVAL_MS = 500;
 constexpr int WIFI_MAX_SSID_LEN = 33;   // 32 chars + null
 constexpr int WIFI_MAX_PASS_LEN = 65;   // 64 chars + null
 
-constexpr int WIFI_MAX_PASS_LEN = 65;   // 64 chars + null
-
 constexpr char NVS_WIFI_NAMESPACE[] = "wifi_prov";
 constexpr char NVS_KEY_SSID[]       = "ssid";
 constexpr char NVS_KEY_PASS[]       = "pass";
 
 /**
  * Inicia a conexão Wi-Fi via credenciais da NVS ou portal captivo.
- * Bloqueia a execução até que a conexão STA seja estabelecida, 
+ * Bloqueia a execução até que a conexão STA seja estabelecida,
  * ou o usuário reconfigure via AP e o ESP32 reinicie.
  */
 void iniciarConexaoWiFi();
