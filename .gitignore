@@ -10,7 +10,7 @@ graphify/
 
 # Arquivo de segredos local (credenciais, tokens) — nunca subir ao repositório
 src/secrets.h
-
+.vscode
 /CODE_REVIEW.md
 /DESIGN.md
 /preview.html
